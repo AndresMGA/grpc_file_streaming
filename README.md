@@ -5,7 +5,7 @@
 ### start server
 
 ```
-./file_straming_server
+./file_streaming_server
 ```
 #### open another teminal 
 
