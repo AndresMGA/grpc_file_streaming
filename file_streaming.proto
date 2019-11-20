@@ -1,0 +1,31 @@
+
+syntax = "proto3";
+
+
+
+package routeguide;
+
+
+service FileStreaming {
+
+
+
+    rpc downloadFile(TargetFileName) returns (stream FileToStream){}
+	rpc uploadFile(stream FileToStream) returns (StreamingError){}
+}
+
+
+
+message TargetFileName{
+	string name= 1;
+}
+
+message StreamingError{
+	bool err = 1;
+}
+
+message FileToStream{
+	string name = 1;
+	bytes binary = 2;
+	int32 byte_count =3;
+}
