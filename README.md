@@ -19,12 +19,12 @@ sudo chmod +x file_streaming_server upload_file download_file
 ```
 ./upload_file [file name]
 ```
-(client will look for a the file in ./client_storage and store it in ./server_storage)
+(will look for a the file in ./client_storage and upload it to ./server_storage)
 
 ##### to download a file 
 ```
 ./download_file [file name]  
 ```
-(client will look for a the file in ./server_storage and store it in ./client_storage)
+(will look for a the file in ./server_storage and download it in ./client_storage)
 
 
