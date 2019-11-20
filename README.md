@@ -1,6 +1,6 @@
 # gRPC File Streaming C++ example
 
-## Install gRCP on your system (UNIX)
+## Install gRPC on your system (UNIX)
 
 ##### pre-requisites
 ```
