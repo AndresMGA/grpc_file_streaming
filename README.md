@@ -13,7 +13,7 @@ sudo chmod +x file_streaming_server upload_file download_file
 ```
 ./file_streaming_server
 ```
-#### open another teminal 
+### open another teminal 
 
 ##### to upload a file 
 ```
