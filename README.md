@@ -16,6 +16,8 @@
 ```
 ##### build and install
 ```
+ $ export CFLAGS=-Wno-error
+ $ export CXXFLAGS=-Wno-error
  $ make
  $ sudo make install
 ```
