@@ -2,6 +2,12 @@
 
 ## usage:
 
+make sure file_streaming_server,upload_file,download_file are executable
+
+```
+sudo chmod +x file_streaming_server upload_file download_file 
+```
+
 ### start server
 
 ```
