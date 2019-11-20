@@ -1,4 +1,21 @@
 # gRPC File Streaming C++ example
+
+## install gRCP on your system (UNIX)
+
+##### pre-requisites
+ $ sudo apt-get install build-essential autoconf libtool pkg-config
+ $ sudo apt-get install libgflags-dev libgtest-dev
+ $ sudo apt-get install clang-6.0 libc++-dev
+
+##### clone repository
+ $ git clone -b $(curl -L https://grpc.io/release) https://github.com/grpc/grpc
+ $ cd grpc
+ $ git submodule update --init
+
+##### build and install
+ $ make
+ $ sudo make install
+
 ---
 ## usage:
 
