@@ -9,7 +9,7 @@
 ```
 #### open another teminal 
 
-#####to upload a file 
+##### to upload a file 
 ```
 ./upload_file [file name]
 ```
