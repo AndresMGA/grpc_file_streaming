@@ -2,7 +2,7 @@
 
 ## usage:
 
-make sure file_streaming_server,upload_file,download_file are executable
+Add executable permissions to **file_streaming_server** , **upload_file** , **download_file**
 
 ```
 sudo chmod +x file_streaming_server upload_file download_file 
